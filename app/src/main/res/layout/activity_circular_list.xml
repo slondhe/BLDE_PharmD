@@ -1,0 +1,104 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/grey"
+    tools:context="in.shaaan.pharmdinfo.CircularList">
+
+    <TextView
+        android:text="@string/select"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bg"
+        android:textColor="@color/second_grey"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:padding="65dp"
+        android:layout_marginBottom="15dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/big_card"
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="30dp"
+                android:text="@string/pd_qf_teaching"
+                android:textColor="@color/textcolor"
+                android:padding="30dp"
+                android:onClick="pd_qf_teaching"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/big_card"
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="30dp"
+                android:text="@string/pd_nomenclature"
+                android:textColor="@color/textcolor"
+                android:padding="30dp"
+                android:onClick="pd_nomenclature"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/big_card"
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="30dp"
+                android:text="@string/promotion"
+                android:textColor="@color/textcolor"
+                android:padding="30dp"
+                android:onClick="promotion"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/big_card"
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="30dp"
+                android:text="@string/registration"
+                android:textColor="@color/textcolor"
+                android:padding="30dp"
+                android:onClick="registration"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/big_card"
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="30dp"
+                android:text="@string/phd_qualification"
+                android:textColor="@color/textcolor"
+                android:padding="30dp"
+                android:onClick="phd_qualification"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/big_card"
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="30dp"
+                android:text="@string/compliaince"
+                android:textColor="@color/textcolor"
+                android:padding="30dp"
+                android:onClick="pd_complaince"/>
+
+            </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,18 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg"
+    tools:context="in.shaaan.pharmdinfo.About">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/developer"
+        android:textColor="@color/second_grey"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:padding="15dp"/>
+
+</LinearLayout>

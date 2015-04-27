@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PharmD India</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">About</string>
+    <string name="welcome"><b>Welcome to Clinical Pharmacy Practice</b></string>
+    <string name="title_activity_second">PharmD India</string>
+    <string name="select"><b>Please select your option-</b></string>
+    <string name="syllabus"><b>Syllabus</b></string>
+    <string name="circulars"><b>Circulars</b></string>
+    <string name="title_activity_year_list">Year List</string>
+    <string name="title_activity_circular_list">Circular List</string>
+    <string name="sy"><b>Second Year</b></string>
+    <string name="ty"><b>Third Year</b></string>
+    <string name="fry"><b>Fourth Year</b></string>
+    <string name="fiy"><b>Fifth Year</b></string>
+    <string name="fy"><b>First Year</b></string>
+    <string name="siy"><b>Sixth Year</b></string>
+    <string name="title_activity_first_year_syllabus">First Year Syllabus</string>
+    <string name="title_activity_second_year_syllabus">Second Year Syllabus</string>
+    <string name="title_activity_third_year_syllabus">Third Year Syllabus</string>
+    <string name="title_activity_fourth_year_syllabus">Fourth Year Syllabus</string>
+    <string name="title_activity_fifth_year_syllabus">Fifth Year Syllabus</string>
+    <string name="title_activity_sixth_year_syllabus">Sixth Year Syllabus</string>
+    <string name="share">Share</string>
+    <string name="title_activity_about">About</string>
+    <string name="developer"><b>Application developed by Shantanu Londhe. Edited by Dr.Chandrahas Jadhav</b></string>
+    <string name="pd_qf_teaching">PharmD As Qualification For Teaching</string>
+    <string name="pd_nomenclature">PharmD Nomenclature</string>
+    <string name="promotion">Promotion to Higher Class</string>
+    <string name="registration">Registration of Passed out PharmD Students</string>
+    <string name="phd_qualification">Clarification on PharmD Qualification</string>
+    <string name="compliaince">Compliaince of PharmD Regulations</string>
+    <string name="title_activity_circular1">Circular</string>
+    <string name="title_activity_circular2">Circular</string>
+    <string name="title_activity_circular3">Circular</string>
+    <string name="title_activity_circular4">Circular</string>
+    <string name="title_activity_circular5">Circular</string>
+    <string name="title_activity_circular6">Circular</string>
+
+</resources>

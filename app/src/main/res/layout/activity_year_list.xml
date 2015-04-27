@@ -1,0 +1,104 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey"
+    android:orientation="vertical"
+    tools:context="in.shaaan.pharmdinfo.YearList">
+
+    <TextView
+        android:text="@string/select"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bg"
+        android:textColor="@color/second_grey"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:padding="65dp"
+        android:layout_marginBottom="15dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/big_card"
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="30dp"
+                android:text="@string/fy"
+                android:textColor="@color/textcolor"
+                android:padding="30dp"
+                android:onClick="first_year_syllabus"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/big_card"
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="30dp"
+                android:text="@string/sy"
+                android:textColor="@color/textcolor"
+                android:padding="30dp"
+                android:onClick="second_year_syllabus"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/big_card"
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="30dp"
+                android:text="@string/ty"
+                android:textColor="@color/textcolor"
+                android:padding="30dp"
+                android:onClick="third_year_syllabus"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/big_card"
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="30dp"
+                android:text="@string/fry"
+                android:textColor="@color/textcolor"
+                android:padding="30dp"
+                android:onClick="fourth_year_syllabus"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/big_card"
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="30dp"
+                android:text="@string/fiy"
+                android:textColor="@color/textcolor"
+                android:padding="30dp"
+                android:onClick="fifth_year_syllabus"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/big_card"
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="30dp"
+                android:text="@string/siy"
+                android:textColor="@color/textcolor"
+                android:padding="30dp"
+                android:onClick="sixth_year_syllabus"/>
+
+            </LinearLayout>
+        </ScrollView>
+
+</LinearLayout>

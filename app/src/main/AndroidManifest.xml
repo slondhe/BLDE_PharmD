@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="in.shaaan.pharmdinfo"
+    android:versionCode="1"
+    android:versionName="1.1">
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/CustomActionBarTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/CustomActionBarTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SecondActivity"
+            android:label="@string/title_activity_second" >
+        </activity>
+        <activity
+            android:name=".YearList"
+            android:label="@string/title_activity_year_list" >
+        </activity>
+        <activity
+            android:name=".CircularList"
+            android:label="@string/title_activity_circular_list">
+        </activity>
+        <activity
+            android:name=".FirstYearSyllabus"
+            android:label="@string/title_activity_first_year_syllabus">
+        </activity>
+        <activity
+            android:name=".SecondYearSyllabus"
+            android:label="@string/title_activity_second_year_syllabus">
+        </activity>
+        <activity
+            android:name=".ThirdYearSyllabus"
+            android:label="@string/title_activity_third_year_syllabus">
+        </activity>
+        <activity
+            android:name=".FourthYearSyllabus"
+            android:label="@string/title_activity_fourth_year_syllabus">
+        </activity>
+        <activity
+            android:name=".FifthYearSyllabus"
+            android:label="@string/title_activity_fifth_year_syllabus">
+        </activity>
+        <activity
+            android:name=".SixthYearSyllabus"
+            android:label="@string/title_activity_sixth_year_syllabus">
+        </activity>
+        <activity
+            android:name=".About"
+            android:label="@string/title_activity_about">
+        </activity>
+        <activity
+            android:name=".Circular1"
+            android:label="@string/title_activity_circular1" >
+        </activity>
+        <activity
+            android:name=".Circular2"
+            android:label="@string/title_activity_circular2" >
+        </activity>
+        <activity
+            android:name=".Circular3"
+            android:label="@string/title_activity_circular3" >
+        </activity>
+        <activity
+            android:name=".Circular4"
+            android:label="@string/title_activity_circular4" >
+        </activity>
+        <activity
+            android:name=".Circular5"
+            android:label="@string/title_activity_circular5" >
+        </activity>
+        <activity
+            android:name=".Circular6"
+            android:label="@string/title_activity_circular6" >
+        </activity>
+    </application>
+
+</manifest>
